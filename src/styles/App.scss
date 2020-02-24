@@ -1,0 +1,52 @@
+/* Bootstrap SCSS */
+@import '~bootstrap/scss/bootstrap.scss';
+
+.App {
+  text-align: center;
+}
+
+.App-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color: white;
+}
+
+.list-group{
+  align-items: center;
+  justify-content: center;
+}
+
+.list-group-item{
+  color: #000;
+  margin: 0 2em;
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-group-item div:last-child {
+  margin-left: auto
+}
+
+.badge-warning{
+  color:#fff
+}
+
+.employe{
+  font-weight: 100;
+}
+
+.strike{
+  font-weight: 100;
+  text-decoration: line-through;
+}
+
+.badge-success, .badge-warning, .close{
+  cursor: pointer;
+}
